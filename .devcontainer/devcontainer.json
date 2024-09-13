@@ -1,0 +1,12 @@
+{
+	"name": "ms-swift-train",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "ms-swift-train",
+    "workspaceFolder": "/app",
+    "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy",
+        "humao.rest-client",
+        "samge.vscode-samge-translate"
+    ]
+}

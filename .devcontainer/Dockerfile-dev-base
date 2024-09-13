@@ -1,0 +1,19 @@
+# set base mirror
+FROM modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.1.0-py310-torch2.3.0-tf2.16.1-1.18.0 as base
+
+# 设置工作目录
+WORKDIR /home
+
+ARG PROXY
+ENV http_proxy=${PROXY} https_proxy=${PROXY}
+
+FROM base as requirements
+
+RUN pip install 'ms-swift[all]' -U
+RUN pip install autoawq
+RUN pip install openai
+RUN pip install vllm
+RUN pip install tf-keras
+
+# 重置代理配置
+ENV http_proxy= https_proxy=

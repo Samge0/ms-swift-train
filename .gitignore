@@ -1,0 +1,29 @@
+ffmpeg-4.4-amd64-static
+pretrained_weights
+output
+__pycache__
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+**/*.py[cod]
+*$py.class
+
+# Model weights
+**/*.pth
+**/*.onnx
+
+# Ipython notebook
+*.ipynb
+
+# Temporary files or benchmark resources
+animations/*
+tmp/*
+
+
+# custom
+.devcontainer/docker-compose.yml
+output/
+.idea/
+*.tar.gz
