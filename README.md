@@ -171,3 +171,7 @@ modelscope download --model qwen/qwen1.5-7b-chat
 
 ### 相关截图
 ![image.png](https://ollama.com/assets/samge/qwen1half-7b-chat-ruozhiba/03031f9d-2e9b-429e-952c-db13a8dd067b)
+![image](https://github.com/user-attachments/assets/1a377816-87a0-49d9-9b25-8c18cb4e3ff5)
+![image](https://github.com/user-attachments/assets/da4f3425-340f-446f-a866-bde97021200b)
+![image](https://github.com/user-attachments/assets/bfbed5be-c1e1-4efb-88a7-369316cdb4cc)
+
