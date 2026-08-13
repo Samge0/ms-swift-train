@@ -2,6 +2,9 @@
 
 本文仅用于记录使用[ms-swift](https://github.com/modelscope/ms-swift)框架对[Qwen1.5-7B-chat](https://www.modelscope.cn/models/qwen/qwen1.5-7b-chat)模型+[ruozhiba](https://www.modelscope.cn/datasets/AI-ModelScope/ruozhiba/dataPeview)数据集进行微调，使用[llama.cpp](https://github.com/ggerganov/llama.cpp)将合并后的微调模型转为[Ollama](https://ollama.com/)支持格式（.gguf）+int4量化，以便在低资源设备上高效推理。
 
+
+> 🌐 **[在线宣传页](https://samge0.github.io/ms-swift-train/)** — 可视化了解功能特性与工作流程
+
 主要流程为：
 - ms-swift多卡训练配置
 - LoRA微调&LoRA合并
